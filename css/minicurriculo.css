@@ -1,0 +1,28 @@
+#conteudo {
+    font-size: 1.5rem;
+    width: 80%;
+}
+
+.secao {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 5% 4% 0% 4%;
+}
+
+
+.secao > details > ul {
+    list-style: none;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+.secao > details > ul > li {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px dotted #736D6A;
+}
+
+.secao > details > summary:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,42 @@
+.projeto {
+    display: flex;
+    padding: 8%;
+    gap: 5rem;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.projeto-texto {
+    width: 40%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+#texto-destaque {
+    font-size: 1.5rem;
+    color: #0D0D0D;
+}
+
+.projeto-imagem {
+    width: 60%;
+}
+
+.projeto-imagem img {
+    width: 100%;
+    border-radius: 1.5rem;
+    border: 1px solid #0D0D0D;
+}
+
+main {
+    padding: 3% 8% 15% 8%;
+}
+
+.botoes {
+    display: flex;
+    gap: 1.5rem;
+}
