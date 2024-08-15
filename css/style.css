@@ -72,6 +72,18 @@ header {
     border-radius: 2px;
 }
 
+#mobile-btn {
+    border: none;
+    display: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #BFB6B0;
+}
+
+#mobile-menu {
+    display: none;
+}
 
 #container-main {
     display: flex;
@@ -178,4 +190,56 @@ footer {
 
 hr {
     color: #0D0D0D;
+}
+
+@media screen and (max-width:750px){ 
+
+    #nav-list {
+        display: none;
+    }
+
+    #container-main {
+        flex-direction: column;
+        padding: 8% 8% 30% 8%;
+        gap: 15px;
+    }
+
+    #texto-main {
+        width: 80%;
+    }
+
+    #imagem-main {
+        width: 70%;
+        padding-bottom: 20%;
+    }
+
+    #footer-itens {
+        gap: 5rem;
+    }
+    
+    .redes-sociais-btn{
+        display: none;
+    }
+
+    #mobile-menu {
+        display: block;
+    }
+
+    #mobile-btn {
+        display: block;
+    }
+
+    #mobile-nav-list {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        gap: 1.5rem;
+        margin: 1rem 0rem;
+        list-style: none;
+        text-align: center;
+    }
+
+    #btn-mobile-menu {
+        list-style: none;
+    }
 }
